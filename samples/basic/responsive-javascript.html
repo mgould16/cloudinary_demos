@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js"></script>
+
+
+  </head>
+  <body>
+    <div>
+      <img data-src="https://res.cloudinary.com/markg16/image/upload/w_auto,h_1000,c_scale/v1562072592/oodt9ndrdikjtjkh33aa.jpg" alt="" class="cld-responsive">
+
+      <script>
+        // Initialize
+        var cl = cloudinary.Cloudinary.new({  cloud_name: 'markg16' });
+        // Call
+        cl.responsive();
+      </script>
+
+    </div>
+  </body>
+</html>
