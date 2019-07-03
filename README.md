@@ -1,3 +1,6 @@
+For the purpose of training, I trialled and executed on a number of different tasks with varying Cloudinary APIs, players and images. 
+
+
 [![Build Status](https://travis-ci.org/cloudinary/cloudinary_gem.svg?branch=master)](https://travis-ci.org/cloudinary/cloudinary_gem)
 Cloudinary
 ==========
